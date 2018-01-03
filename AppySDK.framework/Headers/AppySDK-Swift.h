@@ -297,12 +297,6 @@ SWIFT_CLASS("_TtC7AppySDK10APScenario")
 
 
 
-SWIFT_CLASS("_TtC7AppySDK17AutomationManager")
-@interface AutomationManager : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-@end
-
-
 
 
 
