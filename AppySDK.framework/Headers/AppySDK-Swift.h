@@ -223,6 +223,18 @@ SWIFT_CLASS("_TtC7AppySDK7APBlind")
 @end
 
 
+SWIFT_CLASS("_TtC7AppySDK8APStatus")
+@interface APStatus : APBase
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7AppySDK13APBlindStatus")
+@interface APBlindStatus : APStatus
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC7AppySDK9APControl")
 @interface APControl : APBase
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -243,12 +255,6 @@ SWIFT_CLASS("_TtC7AppySDK23APCoolAutomationsStatus")
 
 SWIFT_CLASS("_TtC7AppySDK8APDimmer")
 @interface APDimmer : APObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC7AppySDK8APStatus")
-@interface APStatus : APBase
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -295,6 +301,12 @@ SWIFT_CLASS("_TtC7AppySDK10APScenario")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+
+SWIFT_CLASS("_TtC7AppySDK17AutomationManager")
+@interface AutomationManager : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+@end
 
 
 
