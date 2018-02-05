@@ -1,12 +1,13 @@
 Pod::Spec.new do |s|
-s.name               = "AppySDK"
-s.version            = "1.1.0"
-s.summary         = "AppySDK is a framework for controlling objects in the houses."
-s.homepage        = "https://github.com/Appy-Dev/AppySDK"
-s.license              = { :type => 'MIT', :file => 'LICENSE' }
-s.author               = "AppySDK"
-s.platform            = :ios, "9.0"
+s.name               = 'AppySDK'
+s.version            = '1.2.0'
+s.summary         = 'AppySDK is a framework for controlling objects in the houses.'
+s.homepage        = 'https://github.com/Appy-Dev/AppySDK'
+s.license         = 'MIT'
+s.author               = 'AppySDK'
+s.ios.deployment_target = '9.0'
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
-s.source              = { :git => "https://github.com/Appy-Dev/AppySDK.git", :tag => s.version }
-s.ios.vendored_frameworks = "AppySDK.framework"
+s.source              = { :git => 'https://github.com/Appy-Dev/AppySDK.git', :tag => s.version }
+s.ios.vendored_frameworks = 'AppySDK.framework'
+s.xcconfig     = { "ENABLE_BITCODE" => "NO" }
 end
