@@ -10,4 +10,6 @@ s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 s.source              = { :git => 'https://github.com/Appy-Dev/AppySDK.git', :tag => s.version }
 s.ios.vendored_frameworks = 'AppySDK.framework'
 s.pod_target_xcconfig     = { "ENABLE_BITCODE" => "NO" }
+s.user_target_xcconfig = { "ENABLE_BITCODE" => "NO" }
+s.pod_target_xcconfig = { "ENABLE_BITCODE" => "NO" }
 end
