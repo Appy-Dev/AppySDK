@@ -11,7 +11,6 @@ s.source              = { :git => 'https://github.com/Appy-Dev/AppySDK.git', :ta
 s.ios.vendored_frameworks = 'AppySDK.framework'
 s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 s.pod_target_xcconfig = {
-    'ENABLE_BITCODE' => 'NO',
-    'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/AppySDK/zlib'
+    'ENABLE_BITCODE' => 'NO'
 }
 end
