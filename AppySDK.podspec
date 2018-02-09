@@ -13,4 +13,5 @@ s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 s.pod_target_xcconfig = {
     'ENABLE_BITCODE' => 'NO'
 }
+s.source_files  =   'AppySDK.framework/Headers/*.h'
 end
