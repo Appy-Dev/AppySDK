@@ -1,6 +1,0 @@
-framework module AppySupportingSDK {
-  umbrella header "AppySupportingSDK.h"
-
-  export *
-  module * { export * }
-}
