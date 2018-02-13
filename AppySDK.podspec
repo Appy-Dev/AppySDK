@@ -6,12 +6,9 @@ s.homepage        = 'https://github.com/Appy-Dev/AppySDK'
 s.license         = 'MIT'
 s.author               = 'AppySDK'
 s.ios.deployment_target = '9.0'
-s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0.2' }
 s.source              = { :git => 'https://github.com/Appy-Dev/AppySDK.git', :tag => s.version }
-s.ios.vendored_frameworks = 'AppySDK.framework'
-s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
-s.pod_target_xcconfig = {
-    'ENABLE_BITCODE' => 'NO'
-}
-s.source_files  =   'AppySDK.framework/Headers/*.h'
+s.ios.vendored_frameworks = 'AppySDK.framework', 'AppySupportingSDK.framework'
+s.dependency 'Alamofire', '~> 4.5'
+s.dependency 'ObjectMapper', '~> 3.1'
 end

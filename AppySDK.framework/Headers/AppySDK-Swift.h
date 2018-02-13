@@ -173,7 +173,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import ObjectiveC;
-@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -307,12 +306,6 @@ SWIFT_CLASS("_TtC7AppySDK17AutomationManager")
 @interface AutomationManager : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
-
-
-
-
-
-
 
 SWIFT_MODULE_NAMESPACE_POP
 #pragma clang diagnostic pop
