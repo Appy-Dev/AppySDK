@@ -182,6 +182,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+SWIFT_CLASS("_TtC7AppySDK12APAutomation")
+@interface APAutomation : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC7AppySDK6APBase")
 @interface APBase : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -192,19 +198,6 @@ SWIFT_CLASS("_TtC7AppySDK8APObject")
 @interface APObject : APBase
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
-SWIFT_CLASS("_TtC7AppySDK16APAirConditioner")
-@interface APAirConditioner : APObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC7AppySDK12APAutomation")
-@interface APAutomation : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 
 SWIFT_CLASS("_TtC7AppySDK7APBlind")
@@ -280,8 +273,14 @@ SWIFT_CLASS("_TtC7AppySDK13APLightStatus")
 
 
 
-SWIFT_CLASS("_TtC7AppySDK8APOutlet")
-@interface APOutlet : APObject
+SWIFT_CLASS("_TtC7AppySDK15APRemoteControl")
+@interface APRemoteControl : APObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7AppySDK21APRemoteControlAction")
+@interface APRemoteControlAction : APBase
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -297,6 +296,18 @@ SWIFT_CLASS("_TtC7AppySDK10APScenario")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+
+SWIFT_CLASS("_TtC7AppySDK14APToggleSwitch")
+@interface APToggleSwitch : APObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7AppySDK20APToggleSwitchStatus")
+@interface APToggleSwitchStatus : APStatus
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
 SWIFT_CLASS("_TtC7AppySDK17AutomationManager")
