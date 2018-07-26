@@ -236,6 +236,18 @@ SWIFT_CLASS("_TtC7AppySDK23APCoolAutomationsStatus")
 @end
 
 
+SWIFT_CLASS("_TtC7AppySDK8APDaikin")
+@interface APDaikin : APObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7AppySDK14APDaikinStatus")
+@interface APDaikinStatus : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC7AppySDK8APDimmer")
 @interface APDimmer : APObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
