@@ -11,7 +11,7 @@ s.source              = { :git => 'https://github.com/Appy-Dev/AppySDK.git', :ta
 s.ios.vendored_frameworks = 'AppySDK.framework'
 s.dependency 'Alamofire', '~> 4.5'
 s.dependency 'ObjectMapper', '~> 3.1'
-s.dependency 'AppySupportingSDK', '1.0.0'
+s.dependency 'AppySupportingSDK', '1.1.0'
 s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 s.pod_target_xcconfig = {
     'ENABLE_BITCODE' => 'NO'
