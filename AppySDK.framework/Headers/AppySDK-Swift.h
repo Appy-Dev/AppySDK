@@ -278,6 +278,8 @@ SWIFT_CLASS("_TtC7AppySDK7APLight")
 @end
 
 
+
+
 SWIFT_CLASS("_TtC7AppySDK13APLightStatus")
 @interface APLightStatus : APStatus
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
