@@ -280,6 +280,12 @@ SWIFT_CLASS("_TtC7AppySDK14APFibaroDimmer")
 @end
 
 
+SWIFT_CLASS("_TtC7AppySDK20APFibaroDimmerStatus")
+@interface APFibaroDimmerStatus : APStatus
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC7AppySDK10APFibaroIR")
 @interface APFibaroIR : APBase
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

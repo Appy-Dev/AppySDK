@@ -10,7 +10,7 @@ s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
 s.swift_version = '4.1'
 s.source              = { :git => 'https://github.com/Appy-Dev/AppySDK.git', :tag => s.version }
 s.ios.vendored_frameworks = 'AppySDK.framework'
-s.dependency 'Alamofire', '~> 4.5'
+s.dependency 'Alamofire', '~> 4.7'
 s.dependency 'ObjectMapper', '~> 3.1'
 s.dependency 'AppySupportingSDK', '1.1.0'
 s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
