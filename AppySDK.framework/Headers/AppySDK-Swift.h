@@ -194,6 +194,26 @@ SWIFT_CLASS("_TtC7AppySDK6APBase")
 @end
 
 
+
+
+SWIFT_CLASS("_TtC7AppySDK14APBinarySwitch")
+@interface APBinarySwitch : APBase
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7AppySDK8APStatus")
+@interface APStatus : APBase
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7AppySDK20APBinarySwitchStatus")
+@interface APBinarySwitchStatus : APStatus
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC7AppySDK8APObject")
 @interface APObject : APBase
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -202,12 +222,6 @@ SWIFT_CLASS("_TtC7AppySDK8APObject")
 
 SWIFT_CLASS("_TtC7AppySDK7APBlind")
 @interface APBlind : APObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC7AppySDK8APStatus")
-@interface APStatus : APBase
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -260,6 +274,24 @@ SWIFT_CLASS("_TtC7AppySDK14APDimmerStatus")
 @end
 
 
+SWIFT_CLASS("_TtC7AppySDK14APFibaroDimmer")
+@interface APFibaroDimmer : APBase
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7AppySDK10APFibaroIR")
+@interface APFibaroIR : APBase
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7AppySDK16APFibaroIRStatus")
+@interface APFibaroIRStatus : APStatus
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC7AppySDK6APHome")
 @interface APHome : APBase
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -276,8 +308,6 @@ SWIFT_CLASS("_TtC7AppySDK7APLight")
 @interface APLight : APBase
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
 
 
 SWIFT_CLASS("_TtC7AppySDK13APLightStatus")
@@ -307,6 +337,12 @@ SWIFT_CLASS("_TtC7AppySDK6APRoom")
 
 SWIFT_CLASS("_TtC7AppySDK10APScenario")
 @interface APScenario : APObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7AppySDK8APServer")
+@interface APServer : APBase
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
