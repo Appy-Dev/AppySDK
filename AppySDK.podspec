@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name               = 'AppySDK'
-s.version            = '1.5.6.1'
+s.version            = '1.5.6-beta'
 s.summary         = 'AppySDK is a framework for controlling objects in the houses.'
 s.homepage        = 'https://github.com/Appy-Dev/AppySDK'
 s.license         = 'MIT'
