@@ -208,26 +208,14 @@ SWIFT_CLASS("_TtC7AppySDK8APObject")
 @end
 
 
-SWIFT_CLASS("_TtC7AppySDK14APBinarySwitch")
-@interface APBinarySwitch : APObject
+SWIFT_CLASS("_TtC7AppySDK7APBlind")
+@interface APBlind : APObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 SWIFT_CLASS("_TtC7AppySDK8APStatus")
 @interface APStatus : APBase
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC7AppySDK20APBinarySwitchStatus")
-@interface APBinarySwitchStatus : APStatus
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC7AppySDK7APBlind")
-@interface APBlind : APObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -281,20 +269,14 @@ SWIFT_CLASS("_TtC7AppySDK14APDimmerStatus")
 
 
 
-SWIFT_CLASS("_TtC7AppySDK10APFibaroIR")
-@interface APFibaroIR : APBase
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 SWIFT_CLASS("_TtC7AppySDK16APFibaroIRStatus")
 @interface APFibaroIRStatus : APStatus
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-SWIFT_CLASS("_TtC7AppySDK27APFibaroRemoteControlStatus")
-@interface APFibaroRemoteControlStatus : APStatus
+SWIFT_CLASS("_TtC7AppySDK22APFibaroStandardAction")
+@interface APFibaroStandardAction : APBase
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -344,12 +326,6 @@ SWIFT_CLASS("_TtC7AppySDK6APRoom")
 
 SWIFT_CLASS("_TtC7AppySDK10APScenario")
 @interface APScenario : APObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC7AppySDK8APServer")
-@interface APServer : APBase
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
